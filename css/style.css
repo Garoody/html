@@ -27,6 +27,7 @@ main {
     margin-top: 25vh;
 
 
+
 }
 
 main div {
@@ -43,29 +44,71 @@ main img {
 
 .temoin {
     display: flex;
-    height: 15vh;
-    width: 20vh;
+
+
 }
 
 .bic {
-    background-color: black;
-    color: aqua;
-    tab-size: 0cap;
-    width: 3%;
-    height: 23%;
+    color: black;
+    background-color: rgb(85, 90, 87);
+    margin: 75px;
+    width: 40%;
+    padding: 4px;
 
 }
 
+
 .aic {
-    background-color: blue;
-    color: brown;
+    color: rgb(122, 68, 5);
+    background-color: rgb(175, 177, 173);
+    width: 40%;
+    margin: 75px;
+    padding: 4px;
+
 }
 
 
 .cic {
-    background-color: blue;
-    color: chartreuse;
+
+    color: rgb(126, 12, 40);
+    background-color: rgb(139, 131, 136);
+    width: 40%;
+    margin: 75px;
+    padding: 4px;
+
 }
+
+
+.nosref {
+    display: flex
+}
+
+.b1 {
+
+
+
+    width: 40%;
+    margin: 75px;
+    padding: 4px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
