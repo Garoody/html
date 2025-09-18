@@ -1,0 +1,149 @@
+@import "/css/typographie.css";
+
+
+* {
+    font-family: 'Gotham', sans-serif;
+
+}
+
+header {
+    height: 10vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header img {
+    height: 10vh;
+    width: 15vh;
+
+}
+
+
+main {
+    min-height: 80vh;
+    margin-top: 25vh;
+
+
+}
+
+main div {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+main img {
+    height: 20vh;
+    width: 15vh;
+}
+
+
+
+.temoin {
+    display: flex;
+    height: 15vh;
+    width: 20vh;
+}
+
+.bic {
+    background-color: black;
+    color: aqua;
+    tab-size: 0cap;
+    width: 3%;
+    height: 23%;
+
+}
+
+.aic {
+    background-color: blue;
+    color: brown;
+}
+
+
+.cic {
+    background-color: blue;
+    color: chartreuse;
+}
+
+
+
+
+
+footer {
+    height: 10vh;
+    background-color: rgb(24, 15, 153);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+
+
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+}
+
+
+.menu li :hover {
+    background-color: burlywood currentColor;
+    cursor: pointer;
+
+}
+
+
+.menu li a {
+    text-decoration: 0s;
+    color: black;
+}
+
+.presentation {
+    background-image: url('../image/A3-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    color: aqua;
+    padding: 10px 50% 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+
+.btn {
+    display: inline;
+    padding: 10px 20px;
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10;
+    font-weight: bold;
+    transition: background-color 0, 5;
+
+}
+
+
+.btn:hover {
+    background-color: brown;
+}
